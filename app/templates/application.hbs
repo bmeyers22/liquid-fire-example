@@ -2,6 +2,6 @@
 
 {{input value=ourText}}
 
-{{#if tooLong}}
+{{#liquid-if tooLong class="input-error" }}
   <div class="error">This text is too long</div>
-{{/if}}
+{{/liquid-if}}
